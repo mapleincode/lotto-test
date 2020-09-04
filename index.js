@@ -2,7 +2,7 @@
  * @Author: maple
  * @Date: 2020-09-03 01:12:20
  * @LastEditors: maple
- * @LastEditTime: 2020-09-04 10:23:32
+ * @LastEditTime: 2020-09-04 10:35:10
  */
 const fs = require('fs');
 const countries = require('./lib/countries_get');
@@ -34,7 +34,7 @@ async function main () {
 
   while (true) {
     for (const [name, crawl] of totals) {
-      await sleep(1000 * 1);
+      await sleep(1000 * 600);
       console.log(`crawl ${name} begin crawl!`);
       let result;
       try {
