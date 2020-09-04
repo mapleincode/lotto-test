@@ -1,0 +1,5 @@
+{
+  "defaultPath": "../lottocrawler",
+  "datasFileName": "logs/datas.log",
+  "eventsFileName": "logs/events.log"
+}

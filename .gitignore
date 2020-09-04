@@ -1,2 +1,8 @@
 config.txt
+number.txt
 node_modules
+*.log
+
+logs/*
+!logs/.gitkeep
+.DS_Store
